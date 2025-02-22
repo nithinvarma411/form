@@ -7,7 +7,7 @@ import connectDB from "./src/db/db.js"
 const app = express()
 
 const corsoptions = {
-    origin: 'http://localhost:5173',
+    origin: 'https://form-alpha-pied.vercel.app',
     credentials: true,
     optionsSuccessStatus: 200
 };
