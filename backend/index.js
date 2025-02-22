@@ -27,4 +27,5 @@ connectDB()
 
 import userRoutes from "./src/routes/User.routes.js"
 
+
 app.use("/api/v1", userRoutes)
