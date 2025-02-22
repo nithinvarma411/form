@@ -6,7 +6,7 @@ function Show() {
 
   const show = async () => {
     try {
-      const response = await axios.get('http://localhost:8000/api/v1/show');
+      const response = await axios.get('https://form-74pf.onrender.com/api/v1/show');
       setUsers(response.data);
     } catch (error) {
       console.error('Error fetching users:', error);

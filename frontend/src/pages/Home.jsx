@@ -16,7 +16,7 @@ function Home() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:8000/api/v1/add', formData);
+      const response = await axios.post('https://form-74pf.onrender.com/api/v1/add', formData);
       console.log('Saved:', response.data);
     } catch (error) {
       console.error('Error saving data:', error);
