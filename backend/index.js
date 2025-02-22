@@ -15,6 +15,7 @@ const corsoptions = {
 app.use(cors(corsoptions))
 app.use(express.json())
 
+
 connectDB()
     .then(() => {
         app.listen(8000, () => {
