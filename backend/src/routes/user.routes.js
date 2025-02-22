@@ -4,6 +4,7 @@ import {Router} from "express"
 
 const router = Router()
 
+
 router.route("/add").post(saveDetails)
 router.route("/show").get(showDetails)
 
